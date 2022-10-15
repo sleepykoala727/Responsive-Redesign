@@ -1,0 +1,136 @@
+/* pushes navbar against top of browser window with no white space. This code also sets the default font for your whole page. Put it at the very top of your css page.  */
+html, body, div, p, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    font-family: 'Saira ExtraCondensed', sans-serif;
+    font-weight: 100;
+  }
+
+  body {
+    background-color: #E9E7E5;
+  }
+  
+  .info {
+    background: #08538E;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    font-weight: 400;
+    color: 08538E;
+  }
+  
+  .info li {
+    display: inline-block;
+    list-style: none;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 40px;
+    color: #ffffff;
+    font-weight:bold;
+    font-size: 2vmin;
+  }
+
+  .specials {
+    display: flex;
+    flex-direction: column; 
+    justify-content:center;
+  }
+
+  .specials-label {
+    display: flex;
+    justify-content: center;
+    font-size: 3vmin;
+  }
+
+  .specials-pics {
+    display: flex;
+    justify-content: center;
+    font-size: 3vmin;
+  }
+  
+  .logo {
+    height: 25%;
+    width: 25%;
+  }
+
+  h1, h2 {
+    color: #08538E;
+    font-weight: bold;
+  }
+
+  .nav {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .partOne {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    padding-left: 15vw;
+    padding-right: 14vw;
+  }
+
+  input {
+    padding: 100px;
+    margin-left: 4vw; 
+    margin-right: 1vw; 
+    margin-top: 130px;
+    margin-bottom: 130px;
+    border: none; 
+    background-color: #08538E;
+    color: #ffffff;
+    font-weight: bold;
+    box-shadow: 10px 10px 0px 1px #DB1F2F;
+  }
+
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  /* .specials-pics-ind {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  } */
+
+  h2 {
+    padding-left: 10vw;
+  }
+
+  .nav-item {
+    padding: 20px;
+    margin-left: 40px; 
+    margin-right: 40px; 
+    margin-top: 130px;
+    margin-bottom: 130px;
+  }
+  
+  input[type=button].rounded {
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 10px;
+  }
+
+  .tabletView {
+    height: 75%;
+    width: 75%;
+  }
+
+  .mobileView {
+    height: 35%;
+    width: 35%;
+  }
+
+  
